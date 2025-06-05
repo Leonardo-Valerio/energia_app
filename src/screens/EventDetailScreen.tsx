@@ -5,7 +5,7 @@ import { View, Text, StyleSheet, ScrollView, Button, Alert } from 'react-native'
 import { RouteProp, useNavigation, useRoute, useFocusEffect } from '@react-navigation/native';
 import { PowerOutageEvent, RootStackParamList } from '../types';
 import { getEventById, deleteEventById } from '../storage/eventStorage';
-import { AppNavigationProp } from '../../App'; // Caminho corrigido para App.tsx
+import { AppNavigationProp } from '../../App'; 
 
 
 type EventDetailScreenRouteProp = RouteProp<RootStackParamList, 'EventDetail'>;

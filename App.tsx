@@ -3,14 +3,14 @@
 import React from 'react';
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator, NativeStackNavigationProp } from '@react-navigation/native-stack';
-import { RootStackParamList } from './src/types'; // Importa os tipos de navegação
+import { RootStackParamList } from './src/types'; 
 
 import HomeScreen from './src/screens/HomeScreen';
 import LocationScreen from './src/screens/LocationScreen';
 import DurationScreen from './src/screens/DurationScreen';
 import DamageScreen from './src/screens/DamageScreen';
 import TipsScreen from './src/screens/TipsScreen';
-import EventDetailScreen from './src/screens/EventDetailScreen'; // Nova tela
+import EventDetailScreen from './src/screens/EventDetailScreen'; 
 
 // Hook customizado para tipar a navegação
 export type AppNavigationProp = NativeStackNavigationProp<RootStackParamList>;

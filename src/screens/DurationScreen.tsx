@@ -16,12 +16,12 @@ import { RouteProp, useNavigation, useRoute } from '@react-navigation/native';
 import DateTimePicker, {
   DateTimePickerEvent,
 } from '@react-native-community/datetimepicker';
-import { AppNavigationProp } from '../../App'; // Verifique se este caminho está correto
+import { AppNavigationProp } from '../../App'; 
 import {
   PowerOutageEventDuration,
   RootStackParamList,
-  PowerOutageEvent, // Necessário para Partial<PowerOutageEvent>
-} from '../types'; // Verifique se este caminho está correto
+  PowerOutageEvent, 
+} from '../types'; 
 
 type DurationScreenRouteProp = RouteProp<RootStackParamList, 'Duração'>;
 
@@ -52,7 +52,7 @@ export default function DurationScreen() {
     );
     console.log('Data Selecionada (Início):', selectedDate);
 
-    setShowStartTimePicker(false); // Oculta o seletor após interação
+    setShowStartTimePicker(false); 
 
     if (event.type === 'set' && selectedDate) {
       setStartTime(selectedDate);
@@ -69,7 +69,7 @@ export default function DurationScreen() {
     );
     console.log('Data Selecionada (Fim):', selectedDate);
 
-    setShowEndTimePicker(false); // Oculta o seletor após interação
+    setShowEndTimePicker(false); 
 
     if (event.type === 'set' && selectedDate) {
       setEndTime(selectedDate);
