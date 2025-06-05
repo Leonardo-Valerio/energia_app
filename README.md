@@ -137,3 +137,23 @@ Antes de começar, certifique-se de que você tem o seguinte instalado e configu
 * **Detalhes do Evento (`EventDetailScreen.tsx`):**
     * Exibe todas as informações de um evento selecionado.
     * Botões para Editar (que leva ao fluxo de formulário com dados pré-preenchidos) e Excluir o evento.
+
+5- **Imagens das telas**
+
+* **Panorama Geral (`HomeScreen.tsx`):**
+   ![image](https://github.com/user-attachments/assets/46ae0d97-8841-4ecd-8d12-6b2febf9e74a)
+
+* **Localização Atingida (`LocationScreen.tsx`):**
+   ![image](https://github.com/user-attachments/assets/3e32b963-084c-4df8-9624-7de4017445d4)
+
+* **Tempo de Interrupção (`DurationScreen.tsx`):**
+   ![image](https://github.com/user-attachments/assets/ddce1083-3fe8-43ea-a956-15311a348208)
+
+* **Prejuízos Causados (`DamageScreen.tsx`):**
+   ![image](https://github.com/user-attachments/assets/de31cba7-8e48-4639-850e-98bf6591404f)
+
+* **Recomendações (`TipsScreen.tsx`):**
+   ![image](https://github.com/user-attachments/assets/16d6a769-a9a1-4845-9fbf-028de9fe6819)
+
+
+
