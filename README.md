@@ -62,7 +62,7 @@ Antes de começar, certifique-se de que você tem o seguinte instalado e configu
 
 1.  **Clone o Repositório:**
     ```bash
-    git clone https://SEU_LINK_PARA_O_REPOSITORIO_NO_GITHUB.git
+    git clone https://github.com/Leonardo-Valerio/energia_app
     cd FaltaEnergiaApp
     ```
 
